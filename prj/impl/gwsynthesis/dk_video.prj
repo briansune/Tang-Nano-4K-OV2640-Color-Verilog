@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NSR-4C" package="QFN48P" speed="6" partNumber="GW1NSR-LV4CQN48PC6/I5"/>
+    <FileList>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\dvi_tx\dvi_tx.v" type="verilog"/>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\gowin_pllvr\GW_PLLVR.v" type="verilog"/>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\gowin_pllvr\TMDS_PLLVR.v" type="verilog"/>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v" type="verilog"/>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\ov2640\I2C_Interface.v" type="verilog"/>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\ov2640\OV2640_Controller.v" type="verilog"/>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\ov2640\OV2640_Registers.v" type="verilog"/>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\syn_code\syn_gen.v" type="verilog"/>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v" type="verilog"/>
+        <File path="C:\Users\briansuneZ\Desktop\project\src\video_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\briansuneZ\Desktop\project\impl\gwsynthesis\dk_video.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="video_top"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

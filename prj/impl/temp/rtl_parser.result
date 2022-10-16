@@ -1,0 +1,116 @@
+[
+ {
+  "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/video_top.v",
+  "InstLine" : 2,
+  "InstName" : "video_top",
+  "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/video_top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "video_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/video_top.v",
+    "InstLine" : 113,
+    "InstName" : "u_OV2640_Controller",
+    "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/ov2640/OV2640_Controller.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "OV2640_Controller",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 30,
+      "InstName" : "LUT",
+      "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/ov2640/OV2640_Registers.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "OV2640_Registers"
+     },
+     {
+      "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 41,
+      "InstName" : "I2C",
+      "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/ov2640/I2C_Interface.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "I2C_Interface"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/video_top.v",
+    "InstLine" : 166,
+    "InstName" : "Video_Frame_Buffer_Top_inst",
+    "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/video_frame_buffer/video_frame_buffer.v",
+    "ModuleLine" : 3014,
+    "ModuleName" : "Video_Frame_Buffer_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/video_frame_buffer/video_frame_buffer.v",
+      "InstLine" : 3065,
+      "InstName" : "vfb_hyperram_wrapper_inst",
+      "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/video_frame_buffer/video_frame_buffer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~vfb_hyperram_wrapper.Video_Frame_Buffer_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/video_top.v",
+    "InstLine" : 198,
+    "InstName" : "GW_PLLVR_inst",
+    "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/gowin_pllvr/GW_PLLVR.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "GW_PLLVR"
+   },
+   {
+    "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/video_top.v",
+    "InstLine" : 205,
+    "InstName" : "HyperRAM_Memory_Interface_Top_inst",
+    "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+    "ModuleLine" : 3735,
+    "ModuleName" : "HyperRAM_Memory_Interface_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "InstLine" : 3810,
+      "InstName" : "u_hpram_top",
+      "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~hpram_top.HyperRAM_Memory_Interface_Top_"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/video_top.v",
+    "InstLine" : 230,
+    "InstName" : "syn_gen_inst",
+    "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/syn_code/syn_gen.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "syn_gen"
+   },
+   {
+    "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/video_top.v",
+    "InstLine" : 287,
+    "InstName" : "TMDS_PLLVR_inst",
+    "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/gowin_pllvr/TMDS_PLLVR.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "TMDS_PLLVR"
+   },
+   {
+    "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/video_top.v",
+    "InstLine" : 304,
+    "InstName" : "DVI_TX_Top_inst",
+    "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 1048,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/briansuneZ/Desktop/project/src/dvi_tx/dvi_tx.v",
+      "InstLine" : 1079,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "C:/Users/briansuneZ/Desktop/project/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ }
+]

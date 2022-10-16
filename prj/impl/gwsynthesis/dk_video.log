@@ -1,0 +1,72 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\gowin_pllvr\GW_PLLVR.v'
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\gowin_pllvr\TMDS_PLLVR.v'
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v'
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\ov2640\I2C_Interface.v'
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\ov2640\OV2640_Controller.v'
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\ov2640\OV2640_Registers.v'
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\syn_code\syn_gen.v'
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v'
+Analyzing Verilog file 'C:\Users\briansuneZ\Desktop\project\src\video_top.v'
+Compiling module 'video_top'("C:\Users\briansuneZ\Desktop\project\src\video_top.v":2)
+Compiling module 'OV2640_Controller'("C:\Users\briansuneZ\Desktop\project\src\ov2640\OV2640_Controller.v":1)
+Compiling module 'OV2640_Registers'("C:\Users\briansuneZ\Desktop\project\src\ov2640\OV2640_Registers.v":1)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\Users\briansuneZ\Desktop\project\src\ov2640\OV2640_Registers.v":36)
+Compiling module 'I2C_Interface(SID=8'h60)'("C:\Users\briansuneZ\Desktop\project\src\ov2640\I2C_Interface.v":14)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\briansuneZ\Desktop\project\src\ov2640\I2C_Interface.v":81)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\briansuneZ\Desktop\project\src\ov2640\I2C_Interface.v":166)
+Compiling module 'Video_Frame_Buffer_Top'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":3014)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module 'GW_PLLVR'("C:\Users\briansuneZ\Desktop\project\src\gowin_pllvr\GW_PLLVR.v":8)
+Compiling module 'HyperRAM_Memory_Interface_Top'("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":3735)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX1998) : Net '**' does not have a driver("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX1998) : Net '**' does not have a driver("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module 'syn_gen'("C:\Users\briansuneZ\Desktop\project\src\syn_code\syn_gen.v":13)
+Compiling module 'TMDS_PLLVR'("C:\Users\briansuneZ\Desktop\project\src\gowin_pllvr\TMDS_PLLVR.v":9)
+Compiling module 'DVI_TX_Top'("C:\Users\briansuneZ\Desktop\project\src\dvi_tx\dvi_tx.v":1048)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("C:\Users\briansuneZ\Desktop\project\src\dvi_tx\dvi_tx.v":0)
+NOTE  (EX0101) : Current top module is "video_top"
+WARN  (EX0211) : The output port "rd_data[10]" of module "~hpram_wd.HyperRAM_Memory_Interface_Top_" has no driver("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "rd_data[5]" of module "~hpram_wd.HyperRAM_Memory_Interface_Top_" has no driver("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "rd_data[10]" of module "~hpram_lane.HyperRAM_Memory_Interface_Top__Z1" has no driver("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "rd_data[5]" of module "~hpram_lane.HyperRAM_Memory_Interface_Top__Z1" has no driver("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "addr_d[19]" of module "~hpram_init.HyperRAM_Memory_Interface_Top_" has no driver("C:\Users\briansuneZ\Desktop\project\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+[5%] Running netlist conversion ...
+WARN  (CV0020) : Input PIXDATA[1:0] is unused("C:\Users\briansuneZ\Desktop\project\src\video_top.v":10)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\briansuneZ\Desktop\project\impl\gwsynthesis\dk_video.vg" completed
+[100%] Generate report file "C:\Users\briansuneZ\Desktop\project\impl\gwsynthesis\dk_video_syn.rpt.html" completed
+GowinSynthesis finish

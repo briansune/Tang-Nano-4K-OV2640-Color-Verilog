@@ -1,0 +1,10 @@
+-d C:\Users\briansuneZ\Desktop\project\impl\gwsynthesis\dk_video.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst C:\Users\briansuneZ\Desktop\project\src\dk_video.cst
+-cfg C:\Users\briansuneZ\Desktop\project\impl\pnr\device.cfg
+-sdc C:\Users\briansuneZ\Desktop\project\src\dk_video.sdc
+-bit
+-tr
+-ph
+-timing
