@@ -1,6 +1,6 @@
 # Tang-Nano-4K-OV2640-Color-Verilog
 
-## An trivial color camera example modified from:
+## A trivial color camera example modified from:
 
 https://github.com/sipeed/TangNano-4K-example
 
